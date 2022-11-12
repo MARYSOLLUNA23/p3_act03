@@ -1,0 +1,169 @@
+body{
+    margin: 0%;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #45d6e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    overflow-x: hidden;
+}
+header{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    text-align: center;
+	margin-bottom: 10px;
+}
+h1{ 
+    text-shadow: 5px 5px 7px white;
+}
+.centrar{ 
+	display: flex;
+	justify-content: center;
+}
+li{
+    list-style: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#menu{
+    background-color: rgb(250, 255, 102);
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    }
+#menu a {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    padding: 1.5em 2em; 
+    text-decoration: none;
+    color: rgb(51, 27, 7);
+    justify-content: space-around;
+}
+#menu a:hover{
+    background-color:  rgb(215, 177, 131);
+ }
+#fondo{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.tablaReg{
+    text-align: center;
+    width: 80%;
+    margin: 5%  10% 5% 10%;
+    
+}
+.tdReg{
+    padding: 1em;
+    background-color: rgb(171, 243, 64);
+    font-size: 2em;
+    border: solid black 2px;
+    color: #000;
+}
+.thReg{
+    padding: 1em;
+    background-color: rgb(63, 28, 133);
+    font-size: 1em;
+    border: solid black 2px;
+    color: bisque;
+    text-shadow: 0px 3px 5px rgb(7, 7, 7);
+}
+.thTex{
+    background-color: rgb(234, 207, 59);
+    border: solid black 2px;
+    color: black;
+    text-align: justify;
+    padding: 0.5em;
+}
+.Boton,input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(10, 9, 9);
+    font-size: 0.5em;
+    margin: 0.5em;
+    padding: 1em;
+    width: 15em;
+}
+.tablaAltas{
+    text-align: center;
+    width: 60%;
+    margin: 10%  20% 10% 20%;
+    background-color: rgb(234, 207, 59);
+    border: solid black 2px;
+    
+}
+.tdAltas{
+    width: 30%;
+    padding: 1em;
+    font-size: 1.3em;
+    border:none;
+    justify-content: center;
+}
+.tdInput{
+    width: 30%;
+}
+.input{
+    width: 80%;
+    padding: 2%;
+}
+.btnAltas{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1em;
+    margin: 0.5em 0.5em 2em 0.5em;
+    padding: 1em;
+    width: 10em;
+    background-color: rgb(63, 28, 133);
+}
+/* css enfocado en inicio */
+.imgRed{
+    border-radius: 15%;
+    margin:1em;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.imgRed:hover{
+    position: relative;
+    top: 10px;
+}
+.imgMov{ 
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 10px 5px #000;
+  margin-bottom: 2em;
+  
+}
+.imgMov:hover{
+position: relative;
+left: 100px;
+}
+.becas h2{
+    color: rgb(170, 16, 16);
+}
+.becas h3{
+    color: rgb(101, 41, 6);
+}
+.becas h4{
+    text-align: justify;
+    padding: 1em;
+}
+#footer {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 0 20px 20px 20px;
+    display: flex;
+    margin-top: 0 auto;
+    background-color: rgb(230, 230, 78);
+  }
+  .footer_section {
+      display: flex;
+      align-items: center;
+      padding: 1em;
+      width: 50%;
+      justify-content: center;
+      color: #000;
+  }
